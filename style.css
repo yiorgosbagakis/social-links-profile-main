@@ -1,0 +1,82 @@
+@font-face {
+ font-family: inter;
+ src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+ font-family: inter;
+ color: hsl(0, 0%, 100%);
+ background-color: hsl(0, 0%, 8%);
+}
+
+h2 {
+ color: hsl(75, 94%, 57%);
+ font-size: 14px;
+ font-weight: 500;
+}
+
+blockquote {
+ font-size: 13px;
+ text-align: center;
+}
+.container {
+ background-color: hsl(0, 0%, 12%);
+ width: 380px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-top: 150px;
+ margin-bottom: 20px;
+}
+
+.img-container {
+width: 85px;
+}
+
+.btn-container {
+ margin-bottom: 2px;
+}
+
+.btn {
+ background-color: hsl(0, 0%, 20%);
+ margin-left: 40px;
+ margin-right: 40px;
+ margin-bottom: 17px;
+ border-radius: 5px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ text-align: center;
+}
+
+.btn:hover {
+ background-color: hsl(75, 94%, 57%);
+ color: hsl(0, 0%, 12%);
+}
+
+a {
+ font-weight: 700;
+ font-size: 14px;
+ text-decoration: none;
+ color:hsl(0, 0%, 100%);
+}
+
+.attribution { 
+ font-size: 11px; 
+ text-align: center; 
+}
+
+.attribution a { 
+ color: hsl(228, 45%, 44%); 
+ font-size: 11px; 
+}
+
+@media screen and (max-width: 480px){
+ .container {
+  width: 324px;
+ }
+
+ .btn {
+  margin-left: 25px;
+  margin-right: 25px;
+ }
+
+}
